@@ -102,6 +102,11 @@ body {
 	background-color: var(--building-color4);
 }
 
+.bb2b {
+	width: 100%;
+	height: 100%;
+}
+
 /* FOREGROUND BUILDINGS - "fb" stands for 'foreground building' */
 
 .fb1 {
