@@ -28,6 +28,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 	/* sets the display style for the elements nested inside this element to be a column that is centered */
+	--building-color1: #999;
+	/* creates a variable using the dash dash(--) variable name pattern (--variable-name:value) */
 }
 
 .bb1a {
