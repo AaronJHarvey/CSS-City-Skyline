@@ -51,29 +51,22 @@ body {
 
 .bb1a {
 	width: 70%;
-	height: 10%;
 	/* gives .bb1a div a width of 70% and height of 10% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
-	background-color: var(--building-color1);
 	/* sets the variable as the value of background color for this element */
-	background: linear-gradient(var(--building-color1), var(--window-color1));
-	/* gives the background of this element a linear gradient starting from solid purple and trasitioning to black (--building-color1 to --window-color1) */
+	/* background: linear-gradient(var(--building-color1), var(--window-color1)); */
 }
 
 .bb1b {
 	width: 80%;
-	height: 10%;
 	/* gives .bb1b div a width of 80% and height of 10% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
-	background-color: var(--building-color1);
 }
 
 .bb1c {
 	width: 90%;
-	height: 10%;
 	/* gives .bb1c div a width of 90% and height of 10% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
-	background-color: var(--building-color1);
 }
 
 .bb1d {
@@ -82,6 +75,12 @@ body {
 	/* gives .bb1d div a width of 100% and height of 70% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
 	background-color: var(--building-color1);
+}
+
+.bb1-window {
+	height: 10%;
+	background: linear-gradient(var(--building-color1), var(--window-color1));
+	/* sets background of this element to a linear gradient trasitioning from purple to black (--building-color1 to --window-color1) */
 }
 
 .bb2 {
