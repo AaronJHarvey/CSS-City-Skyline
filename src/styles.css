@@ -12,3 +12,9 @@ body {
 	/* makes body element take up entire viewport (vh) and removes it's default margin
     anything that runs over into the margin is hidden */
 }
+
+#background-buildings {
+	width: 100%;
+	height: 100%;
+	/* targets div element with class of background-buildings and makes it take up entire height and width of the parent element (body) */
+}
