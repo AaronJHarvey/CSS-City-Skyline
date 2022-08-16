@@ -46,6 +46,7 @@ body {
 	height: 10%;
 	/* gives .bb1b div a width of 80% and height of 10% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
+	background-color: var(--building-color1);
 }
 
 .bb1c {
@@ -53,6 +54,7 @@ body {
 	height: 10%;
 	/* gives .bb1c div a width of 90% and height of 10% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
+	background-color: var(--building-color1);
 }
 
 .bb1d {
@@ -60,4 +62,5 @@ body {
 	height: 70%;
 	/* gives .bb1d div a width of 100% and height of 70% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
+	background-color: var(--building-color1);
 }
