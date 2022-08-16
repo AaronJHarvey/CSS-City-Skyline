@@ -1,5 +1,5 @@
 * {
-	border: 1px solid green;
+	border: 1px solid black;
 	/* adds border to all elements to help with visualization as we build - will be deleted later */
 	box-sizing: border-box;
 	/* Makes it so that the border does not add size to elements  */
