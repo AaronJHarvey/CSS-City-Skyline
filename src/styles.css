@@ -99,4 +99,5 @@ body {
 	height: 100%;
 	position: absolute;
 	top: 0;
+	/* makes .foreground-buildings div the same size as the body and starts it in the top left corner */
 }
