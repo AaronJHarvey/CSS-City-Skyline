@@ -24,6 +24,10 @@ body {
 	height: 70%;
 	/* targes .bb1 div element nested within .background-buildings div and gives it a height
     that is 70% and width of 10% of the parent element (.background-buildings */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* sets the display style for the elements nested inside this element to be a column that is centered */
 }
 
 .bb1a {
