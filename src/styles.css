@@ -3,6 +3,7 @@
 	--building-color2: #66cc99;
 	--building-color3: #cc6699;
 	--building-color4: #538cc6;
+	--window-color1: black;
 	/* :root selector is where style variables should be set because that allows them to be cascaded (shared) to all elements in the file */
 }
 
@@ -33,6 +34,8 @@ body {
 	position: absolute;
 	top: 0;
 }
+
+/* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 
 .bb1 {
 	width: 10%;
@@ -96,6 +99,8 @@ body {
 	height: 58%;
 	background-color: var(--building-color4);
 }
+
+/* FOREGROUND BUILDINGS - "fb" stands for 'foreground building' */
 
 .fb1 {
 	width: 10%;
