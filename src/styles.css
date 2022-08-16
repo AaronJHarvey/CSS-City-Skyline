@@ -33,6 +33,7 @@ body {
 	align-items: center;
 	/* sets the display style for the elements nested inside this element to be a column that is centered */
 	--building-color1: #aa80ff;
+	--building-color2: #66cc99;
 	/* creates a variable using the dash dash(--) variable name pattern (--variable-name:value) */
 }
 
