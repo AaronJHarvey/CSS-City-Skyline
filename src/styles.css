@@ -1,6 +1,14 @@
 * {
-	border: 1px solid black;
+	border: 3px solid green;
 	/* adds border to all elements to help with visualization as we build - will be deleted later */
 	box-sizing: border-box;
 	/* Makes it so that the border does not add size to elements  */
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	/* makes body element take up entire viewport (vh) and removes it's default margin
+    anything that runs over into the margin is hidden */
 }
