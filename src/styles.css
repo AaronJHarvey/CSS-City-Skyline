@@ -2,6 +2,7 @@
 	--building-color1: #aa80ff;
 	--building-color2: #66cc99;
 	--building-color3: #cc6699;
+	--building-color4: #538cc6;
 	/* :root selector is where style variables should be set because that allows them to be cascaded (shared) to all elements in the file */
 }
 
@@ -78,14 +79,14 @@ body {
 .bb2 {
 	width: 10%;
 	height: 50%;
-	background-color: var(--building-color2, green);
+	background-color: var(--building-color2);
 	/* Invokes --building-color2 variable and creates fallback incase it fails */
 }
 
 .bb3 {
 	width: 10%;
 	height: 55%;
-	background-color: var(--building-color3, pink);
+	background-color: var(--building-color3);
 }
 .bb4 {
 	width: 11%;
