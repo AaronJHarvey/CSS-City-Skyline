@@ -34,6 +34,7 @@ body {
 	/* sets the display style for the elements nested inside this element to be a column that is centered */
 	--building-color1: #aa80ff;
 	--building-color2: #66cc99;
+	--building-color3: #cc6699;
 	/* creates a variable using the dash dash(--) variable name pattern (--variable-name:value) */
 }
 
@@ -80,6 +81,7 @@ body {
 .bb3 {
 	width: 10%;
 	height: 55%;
+	background-color: var(--building-color3, pink);
 }
 .bb4 {
 	width: 11%;
