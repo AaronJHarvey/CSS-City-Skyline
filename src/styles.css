@@ -25,3 +25,31 @@ body {
 	/* targes .bb1 div element nested within .background-buildings div and gives it a height
     that is 70% and width of 10% of the parent element (.background-buildings */
 }
+
+.bb1a {
+	width: 70%;
+	height: 10%;
+	/* gives .bb1a div a width of 70% and height of 10% of it's parent div (.bb1) 
+  height of .bb1a-.bb1d should add up to 100% */
+}
+
+.bb1b {
+	width: 80%;
+	height: 10%;
+	/* gives .bb1b div a width of 80% and height of 10% of it's parent div (.bb1) 
+  height of .bb1a-.bb1d should add up to 100% */
+}
+
+.bb1c {
+	width: 90%;
+	height: 10%;
+	/* gives .bb1c div a width of 90% and height of 10% of it's parent div (.bb1) 
+  height of .bb1a-.bb1d should add up to 100% */
+}
+
+.bb1d {
+	width: 100%;
+	height: 70%;
+	/* gives .bb1d div a width of 100% and height of 70% of it's parent div (.bb1) 
+  height of .bb1a-.bb1d should add up to 100% */
+}
