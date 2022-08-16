@@ -74,7 +74,7 @@ body {
 	height: 70%;
 	/* gives .bb1d div a width of 100% and height of 70% of it's parent div (.bb1) 
   height of .bb1a-.bb1d should add up to 100% */
-	background-color: var(--building-color1);
+	background: linear-gradient(orange, var(--building-color1), var(--window-color1));
 }
 
 .bb1-window {
