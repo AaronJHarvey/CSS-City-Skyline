@@ -45,6 +45,12 @@ body {
 	/* Moves display styling previously in .bb1 to encase all buildings. (casues cleaner code as there is no redundancy  */
 }
 
+.window-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 
 .bb1 {
