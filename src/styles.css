@@ -166,6 +166,13 @@ body {
 	height: 60%;
 }
 
+.fb1a {
+	border-bottom: 7vh solid var(--building-color4);
+	border-left: 2vw solid transparent;
+	border-right: 2vw solid transparent;
+	/* With addition of borders on the left and right the bottom of the element expands to a width of the combined left/right border widths - even though the left and right borders are invisible by having them be 2vw (2% of the window it's being viewed in) each makes the bottom border 4% of the viewport width(width of the window being viewed in)  */
+}
+
 .fb1b {
 	width: 60%;
 	height: 10%;
