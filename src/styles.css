@@ -37,6 +37,13 @@ body {
 	top: 0;
 }
 
+.building-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* Moves display styling previously in .bb1 to encase all buildings. (casues cleaner code as there is no redundancy  */
+}
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 
 .bb1 {
@@ -44,11 +51,6 @@ body {
 	height: 70%;
 	/* targes .bb1 div element nested within .background-buildings div and gives it a height
     that is 70% and width of 10% of the parent element (.background-buildings */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* sets the display style for the elements nested inside this element to be a column that is centered */
-	/* creates a variable using the dash dash(--) variable name pattern (--variable-name:value) */
 }
 
 .bb1a {
