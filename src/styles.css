@@ -6,6 +6,7 @@
 	--window-color1: black;
 	--window-color2: #8cd9b3;
 	--window-color3: #d98cb3;
+	--window-color4: #8cb3d9;
 	/* :root selector is where style variables should be set because that allows them to be cascaded (shared) to all elements in the file */
 }
 
