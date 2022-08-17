@@ -51,7 +51,10 @@ body {
 }
 
 .sky {
-	background: radial-gradient(#ffcf33 0%, #ffcf33 20%, #ffff66 21%, #bbeeff 100%);
+	background: radial-gradient(circle closest-corner at 15% 15%, #ffcf33 0%, #ffcf33 20%, #ffff66 21%, #bbeeff 100%);
+	/* radial-gradient makes a circular, or ovalar, (defined by circle or ellipse)   gradient instad of a linear one */
+	/* closest-corner at 15% means the end shape meets the closest corner plus 15%*/
+	/* second 15% puts the gradient stop 15% from corner on other axis */
 }
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
