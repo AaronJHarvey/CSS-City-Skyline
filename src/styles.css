@@ -263,6 +263,11 @@ body {
 	width: 30%;
 	height: 10%;
 	border-radius: 50%;
+	background-color: var(--window-color1);
+	margin: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	/* styles display of this element class - puts them side by side and when they reach the end of the width of their parent elemet (fb4) they wrap to the next row */
 }
 
 .fb5 {
