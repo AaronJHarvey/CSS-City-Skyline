@@ -11,8 +11,7 @@
 }
 
 * {
-	border: 1px solid black;
-	/* adds border to all elements to help with visualization as we build - will be deleted later */
+	/* border: 1px solid black;  adds border to all elements to help with visualization as we build - will be deleted later (deleted at end after elements are built/styled */
 	box-sizing: border-box;
 	/* Makes it so that the border does not add size to elements  */
 }
