@@ -319,3 +319,11 @@ body {
 			var(--window-color3) 30%
 		);
 }
+
+@media (max-width: 1000px) {
+	/* anything in this media query does not happen unless the document size is 1000px or less */
+	.sky {
+		background: radial-gradient(closest-corner circle at 15% 15%, #ccc, #ccc 20%, #445 21%, #223 100%);
+	}
+	/* if the document is 1000px or less the sky turns black and the sun turns to a moon giving the look of a nighttime skyline */
+}
